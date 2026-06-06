@@ -1,0 +1,102 @@
+[
+    {
+        "query": "parse a date column from a string",
+        "top_hits": [
+            {
+                "rank": 1,
+                "function_name": "validate_parse_dates_presence",
+                "score": 0.5008901357650757
+            },
+            {
+                "rank": 2,
+                "function_name": "ExcelWriter.date_format",
+                "score": 0.4944148063659668
+            },
+            {
+                "rank": 3,
+                "function_name": "ExcelWriter.datetime_format",
+                "score": 0.46922898292541504
+            }
+        ]
+    },
+    {
+        "query": "drop rows with missing values",
+        "top_hits": [
+            {
+                "rank": 1,
+                "function_name": "DataFrame.dropna",
+                "score": 0.638124942779541
+            },
+            {
+                "rank": 2,
+                "function_name": "Series.dropna",
+                "score": 0.5780678987503052
+            },
+            {
+                "rank": 3,
+                "function_name": "ExtensionArray.dropna",
+                "score": 0.4800976514816284
+            }
+        ]
+    },
+    {
+        "query": "group data by a column and calculate the mean",
+        "top_hits": [
+            {
+                "rank": 1,
+                "function_name": "Resampler.mean",
+                "score": 0.43307730555534363
+            },
+            {
+                "rank": 2,
+                "function_name": "GroupBy.ohlc",
+                "score": 0.4072875380516052
+            },
+            {
+                "rank": 3,
+                "function_name": "Resampler.nunique",
+                "score": 0.4038948118686676
+            }
+        ]
+    },
+    {
+        "query": "merge two dataframes together on a specific key",
+        "top_hits": [
+            {
+                "rank": 1,
+                "function_name": "DataFrame.combine",
+                "score": 0.6163710355758667
+            },
+            {
+                "rank": 2,
+                "function_name": "DataFrame.combine_first",
+                "score": 0.6070377826690674
+            },
+            {
+                "rank": 3,
+                "function_name": "merge_asof",
+                "score": 0.605659008026123
+            }
+        ]
+    },
+    {
+        "query": "convert dataframe to a dictionary",
+        "top_hits": [
+            {
+                "rank": 1,
+                "function_name": "DataFrame.from_dict",
+                "score": 0.6049593687057495
+            },
+            {
+                "rank": 2,
+                "function_name": "to_dict",
+                "score": 0.5736362338066101
+            },
+            {
+                "rank": 3,
+                "function_name": "StataStrLWriter.generate_table",
+                "score": 0.5725897550582886
+            }
+        ]
+    }
+]
