@@ -49,7 +49,7 @@ The core philosophy of this project is to achieve enterprise-level scaling witho
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/neural-code-search.git](https://github.com/yourusername/neural-code-search.git)
+   git clone [https://github.com/AbdullahWali007/neural-code-search.git](https://github.com/AbdullahWali007/neural-code-search.git)
    cd neural-code-search
 
 
